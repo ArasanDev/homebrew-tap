@@ -1,7 +1,8 @@
 # ArasanDev Homebrew tap
 
 ```sh
-brew install --cask ArasanDev/tap/yt
+brew trust arasandev/tap          # Homebrew 7+ trusts third-party taps explicitly
+brew install --cask arasandev/tap/yt
 ```
 
 ## yt
